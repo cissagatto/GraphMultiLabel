@@ -1,0 +1,9 @@
+Config, Value
+Dataset_Path, ~/BuildDataFrameGraphMLC/Datasets
+Temporary_Path, /dev/shm/j-GpositiveGO
+Similarities_Path, ~/BuildDataFrameGraphMLC/Similarities/jaccard
+Similarity, jaccard
+Dataset_Name, GpositiveGO
+Number_Dataset, 41
+Number_Folds, 10
+Number_Cores, 1
