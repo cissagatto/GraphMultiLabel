@@ -19,7 +19,7 @@
 #########################################################################
 
 
-FolderRoot = "~/BuildDataFrameGraphMLC"
+FolderRoot = "~/GraphMultiLabel"
 FolderScripts = paste(FolderRoot, "/R", sep="")
 
 
@@ -30,9 +30,9 @@ createDirs <- function(parametere){
 
   retorno = list()
 
-  FolderRoot = "~/BuildDataFrameGraphMLC"
+  FolderRoot = "~/GraphMultiLabel"
   FolderScripts = paste(FolderRoot, "/R", sep="")
-
+  
   FolderScripts = paste(FolderRoot, "/R", sep="")
   retorno$FolderScripts = FolderScripts
 

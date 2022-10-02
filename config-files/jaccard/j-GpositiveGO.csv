@@ -1,7 +1,7 @@
 Config, Value
-Dataset_Path, ~/BuildDataFrameGraphMLC/Datasets
+Dataset_Path, ~/GraphMultiLabel/Datasets
 Temporary_Path, /dev/shm/j-GpositiveGO
-Similarities_Path, ~/BuildDataFrameGraphMLC/Similarities/jaccard
+Similarities_Path, ~/GraphMultiLabel/Similarities/jaccard
 Similarity, jaccard
 Dataset_Name, GpositiveGO
 Number_Dataset, 41

@@ -1,7 +1,7 @@
 Config, Value
-Dataset_Path, ~/BuildDataFrameGraphMLC/Datasets
+Dataset_Path, ~/GraphMultiLabel/Datasets
 Temporary_Path, /dev/shm/m-ro-GpositiveGO
-Similarities_Path, ~/BuildDataFrameGraphMLC/Similarities/rogers.tanimoto
+Similarities_Path, ~/GraphMultiLabel/Similarities/rogers.tanimoto
 Similarity, rogers.tanimoto
 Dataset_Name, GpositiveGO
 Number_Dataset, 41

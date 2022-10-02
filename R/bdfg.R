@@ -30,7 +30,7 @@ cat("\n\n####################################################")
 cat("\n\n#######################################################")
   cat("\n# BDFG: SET WORK SPACE                                #")
   cat("\n#######################################################\n\n")
-FolderRoot = "~/BuildDataFrameGraphMLC"
+FolderRoot = "~/GraphMultiLabel"
 FolderScripts = paste(FolderRoot, "/R", sep="")
 
 
@@ -74,7 +74,7 @@ args <- commandArgs(TRUE)
 # from csv file                                                             #
 #############################################################################
 
-# config_file = "~/BuildDataFrameGraphMLC/config-files/jaccard/j-GpositiveGO.csv"
+ # config_file = "~/GraphMultiLabel/config-files/jaccard/j-GpositiveGO.csv"
 
 config_file <- args[1]
 
@@ -309,6 +309,8 @@ if(file.exists(str00)==FALSE){
 
 
 }
+
+
 
 Folder = paste(parameters$Folders$folderResults, "/DFG", sep="")
 if(dir.exists(Folder)==FALSE){dir.create(Folder)}

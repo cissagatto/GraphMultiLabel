@@ -19,8 +19,9 @@
 #########################################################################
 
 
-FolderRoot = "~/BuildDataFrameGraphMLC"
+FolderRoot = "~/GraphMultiLabel"
 FolderScripts = paste(FolderRoot, "/R", sep="")
+
 
 library(igraph)
 library(dplyr)

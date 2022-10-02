@@ -19,7 +19,7 @@
 #########################################################################
 
 
-FolderRoot = "~/BuildDataFrameGraphMLC"
+FolderRoot = "~/GraphMultiLabel"
 FolderScripts = paste(FolderRoot, "/R", sep="")
 
 ##################################################
@@ -80,7 +80,7 @@ spars_knn <- function(parameters){
   colnames(nomes_labels) = c("i", "nomes")
 
   #cat("\n\tOrdering DF")
-  df = arrange(parameters$graph, desc(parameters$similarity))
+  df = arrange(parameters$graph, desc(similarity))
   df = df[c(-1:-parameters$Dataset.Info$Labels),] # removendo self loops
   #df2 = arrange(df, desc(from))
 

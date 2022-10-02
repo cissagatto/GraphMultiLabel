@@ -19,7 +19,7 @@
 #########################################################################
 
 
-FolderRoot = "~/BuildDataFrameGraphMLC"
+FolderRoot = "~/GraphMultiLabel"
 FolderScripts = paste(FolderRoot, "/R", sep="")
 
 
@@ -28,9 +28,9 @@ FolderScripts = paste(FolderRoot, "/R", sep="")
 #################################################################
 execute <- function(parameters){
 
-  FolderRoot = "~/BuildDataFrameGraphMLC"
+  FolderRoot = "~/GraphMultiLabel"
   FolderScripts = paste(FolderRoot, "/R", sep="")
-
+  
   if(parameters$Number.Cores  == 0){
     cat("\n\n##################################################################################################")
     cat("\n# Zero is a disallowed value for number_cores. Please choose a value greater than or equal to 1. #")
@@ -62,7 +62,7 @@ execute <- function(parameters){
   f = 1
   foldsParalel <- foreach(f = 1:number_folds) %dopar% {
 
-    FolderRoot = "~/BuildDataFrameGraphMLC"
+    FolderRoot = "~/GraphMultiLabel"
     FolderScripts = paste(FolderRoot, "/R/", sep="")
 
     setwd(FolderScripts)
