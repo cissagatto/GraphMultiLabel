@@ -70,7 +70,7 @@ conda env create -file AmbienteTeste.yaml
 See more information about Conda environments [here](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) 
 
 ### STEP 4
-You will need the previous similarity matrix computed by [this code](https://github.com/cissagatto/SimilaritiesMeasuresMultiLabel). Put the "tar.gz" file in SIMILARITIES folder in this project. Whithout it you cannot run this code.
+You will need the previous similarity matrix computed by [this code](https://github.com/cissagatto/SimilaritiesMultiLabel). Put the "tar.gz" file in SIMILARITIES folder in this project. Whithout it you cannot run this code.
 
 ### STEP 5
 To run this code you will need a configuration file saved in *csv* format and with the following information:
@@ -107,10 +107,10 @@ Topology: 6-Core | model: Intel Core i7-10750H | bits: 64 | type: MT MCP | L2 ca
 Then the experiment was executed in a cluster at UFSCar.
 
 ## Results
-The results stored in the folder _DFGraphs_ it will be used in the next phase: *BestCommunityMethod*. The result for a dataset must be put in the folder *BestCommunityMethod* in the respective code. Also, must be in "tar.gz" format.
+The results stored in the folder _DFGraphs_ it will be used in the next phase: *Generate-Partitions-Communities*. The result for a dataset must be put in the folder *Generate-Partitions-Communities* in the respective code. Also, must be in "tar.gz" format.
 
 ## RUN
-To run the code, open the terminal, enter the *~/BuildDataFrameGraphMLC/R* folder, and type
+To run the code, open the terminal, enter the *~/GraphMultiLabel/R* folder, and type
 
 ```
 Rscript bdfg.R [absolute_path_to_config_file]
@@ -119,7 +119,7 @@ Rscript bdfg.R [absolute_path_to_config_file]
 Example:
 
 ```
-Rscript bdfg.R "~/BuildDataFrameGraphMLC/config-files/jaccard/b-j-GpositiveGO.csv"
+Rscript bdfg.R "~/GraphMultiLabel/config-files/jaccard/b-j-GpositiveGO.csv"
 ```
 
 ## DOWNLOAD RESULTS
