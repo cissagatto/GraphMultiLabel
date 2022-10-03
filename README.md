@@ -8,13 +8,12 @@ This code is part of my doctoral research at PPG-CC/DC/UFSCar. The aim is build 
 This code source is composed of the project R to be used in RStudio IDE and also the following scripts R:
 
 1. libraries.R
-2. utils.R
-3. 
-4. 
-5. run.R
-6. bdfg.R
-7. config_files.R
-8. jobs.R
+2. utils.R 
+3. run.R
+4. build.R
+5. bdfg.R
+6. config_files.R
+7. jobs.R
 
 
 ## Preparing your experiment
